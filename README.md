@@ -1,2 +1,3 @@
 # DeployArch
-Work in progress. Supposed to deploy arch after an archinstall
+# Future Project
+Work in progress. Supposed to deploy arch w/ i3 and some configuration after an archinstall
