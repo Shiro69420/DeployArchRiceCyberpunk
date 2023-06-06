@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo pacman -S bspwm cmatrix dmenu firefox git htop kitty neofetch neovim nitrogen ntfs-3g picom pipewire pipewire-alsa pipewire-jack pipewire-pulse polybar sxhkd xorg-server xorg-xinit
+git clone https://aur.archlinux.org/yay.git
+makepkg -si
+yay -S nerd-fonts-complete-starship
