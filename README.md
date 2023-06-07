@@ -1,4 +1,4 @@
 # DeployArchRiceCyberpunk
 # Future Project
-Work in progress. It will deploy some utils + a rice on ARCH
-I plan to give support to more distros eventually.
+Work in progress.
+The configs work for every distro, but do not use the install script on something besides arch.
