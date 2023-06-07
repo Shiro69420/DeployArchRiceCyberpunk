@@ -1,7 +1,8 @@
 #!/bin/bash
 echo This WILL overwrite config files for this software. If you do not wish for this to happen, please move the files manually. This will give you 15 seconds to cancel. Press control+C to do so.
 sleep 15
-sudo pacman -S bspwm dmenu git kitty nitrogen picom pipewire pipewire-alsa pipewire-jack pipewire-pulse polybar sxhkd xorg-server xorg-xinit
+sudo pacman -S bspwm dmenu git kitty nitrogen lightdm lightdm-gtk-greeter picom pipewire pipewire-alsa pipewire-jack pipewire-pulse polybar sxhkd xorg-server xorg-xinit
+sudo systemctl enable lightdm
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
