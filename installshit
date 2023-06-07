@@ -4,3 +4,5 @@ sudo pacman -S bspwm cmatrix dmenu firefox git htop kitty neofetch neovim nitrog
 git clone https://aur.archlinux.org/yay.git
 makepkg -si
 yay -S nerd-fonts-complete-starship
+git clone https://github.com/Shiro69420/DeployArchRiceCyberpunk.git
+cd DeployArchRiceCyberpunk
